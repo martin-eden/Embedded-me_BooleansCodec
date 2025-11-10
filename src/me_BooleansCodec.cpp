@@ -2,7 +2,7 @@
 
 /*
   Author: Martin Eden
-  Last mod.: 2025-11-09
+  Last mod.: 2025-11-10
 */
 
 #include <me_BooleansCodec.h>
@@ -17,8 +17,8 @@
 using namespace me_BooleansCodec;
 
 static const TAddressSegment
-  TrueEncoding = me_WorkmemTools::FromAsciiz("YES"),
-  FalseEncoding = me_WorkmemTools::FromAsciiz("NO");
+  TrueEncoding = me_WorkmemTools::FromAsciiz("Y"),
+  FalseEncoding = me_WorkmemTools::FromAsciiz("N");
 
 /*
   Write boolean to output stream
